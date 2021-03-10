@@ -69,6 +69,7 @@ Se incluyen los principales SELECTORES SIMPLES; hay más combinaciones...
 		}
 		
 		.lado {
+			overflow:auto;
 		  border-style: solid;
 		  border-color: violet;
 		
