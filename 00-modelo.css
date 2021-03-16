@@ -114,6 +114,11 @@ Se incluyen los principales SELECTORES SIMPLES; hay más combinaciones...
 			font-family: "Lucida Console", "Courier New", monospace;
 			color:rgba(255, 99, 71, 1);
 		}
+		
+		#tituloPelicula2{
+			font-family: "Lucida Console", "Courier New", monospace;
+			color:blue;
+		}
 		.porquedam{
 			
 			
