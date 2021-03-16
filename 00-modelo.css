@@ -19,8 +19,8 @@ Se incluyen los principales SELECTORES SIMPLES; hay más combinaciones...
 		
 		.marco {
 		  display: grid;
-		  border-style: solid;
-		   border-color: blue;
+		  /*border-style: solid;
+		   border-color: blue;*/
 		  grid-template-columns: 250px auto;
 		  grid-template-rows: 150px 40px auto 40px;
 		  grid-gap: 10px;
@@ -29,9 +29,9 @@ Se incluyen los principales SELECTORES SIMPLES; hay más combinaciones...
 		}
 		
 		.encabezado {
-			overflow:auto;
+			overflow:auto;/*
 		  border-style: solid;
-		  border-color: blue;
+		  border-color: blue;*/
 		  grid-column: 1 / span 2;
 		  grid-row: 1 / span 1;
 		 background-color:rgba(0,0,255,0.1)
@@ -60,18 +60,18 @@ Se incluyen los principales SELECTORES SIMPLES; hay más combinaciones...
 			
 		}
 		
-		.migas {
+		.migas {/*
 		  border-style: solid;
-		  border-color: blue;
+		  border-color: blue;*/
 		  grid-column: 1 / span 2;
 		  grid-row: 2 / span 1;
 		   background-color:rgba(0,0,255,0.1)
 		}
 		
 		.lado {
-			overflow:auto;
+			overflow:auto/*;
 		  border-style: solid;
-		  border-color: violet;
+		  border-color: violet;*/
 		
 		  grid-column: 1 / span 1;
 		  grid-row: 3 / span 1;
@@ -82,9 +82,9 @@ Se incluyen los principales SELECTORES SIMPLES; hay más combinaciones...
 			
     height: 110%;
 
-			overflow:auto;
+			overflow:auto;/*
 		  border-style: solid;
-		  border-color: violet;
+		  border-color: violet;*/
 		  grid-column: 2 / span 1;
 		  grid-row: 3 / span 1;
 		   background-color:rgba(0,0,255,0.1)
